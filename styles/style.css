@@ -119,6 +119,7 @@ body {
 .vision-boxes {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .vision-title {
@@ -128,6 +129,8 @@ body {
   margin-top: 24px;
   margin-bottom: 12px;
 }
+
+/* The future of vision 3 box part  */
 
 .vision-description {
   margin-bottom: 35px;
@@ -162,6 +165,8 @@ body {
   margin-bottom: 24px;
 }
 
+/* learn more button  */
+
 .learn-more-btn1 {
   background-color: #6593e4;
   border-radius: 8px;
@@ -184,4 +189,36 @@ body {
   padding: 11px 20px;
   color: #ffffff;
   border: none;
+}
+
+/* Qoute-section */
+
+.quote-section {
+  background-color: #ffffff;
+  border-radius: 16px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  padding: 30px 24px;
+  background-position-x: 15px;
+  background-position-y: 7px;
+  margin-bottom: 30px;
+}
+
+.Dr-qoute {
+  margin-bottom: 13px;
+  opacity: 70%;
+  color: #0e0e0e;
+}
+.Dr-name {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 80%;
+  color: #0e0e0e;
+}
+
+.Dr-title {
+  color: #0e0e0e;
+  opacity: 70%;
 }
