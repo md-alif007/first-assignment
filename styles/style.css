@@ -11,6 +11,10 @@
 
 /* shared-styles */
 
+.same-color {
+  color: #0e0e0e;
+}
+
 body {
   width: 90%;
   margin: auto;
@@ -52,7 +56,6 @@ body {
 .primay-heading {
   font-weight: bold;
   font-size: 40px;
-  color: #0e0e0e;
 }
 
 /* navigation-bar-styles */
@@ -66,7 +69,6 @@ body {
 .nav-title {
   font-weight: bold;
   font-size: 32px;
-  color: #0e0e0e;
   margin-top: 12px;
 }
 
@@ -107,7 +109,6 @@ body {
 .banner-title {
   font-weight: bold;
   font-size: 50px;
-  color: #0e0e0e;
   margin-bottom: 24px;
 }
 
@@ -123,9 +124,8 @@ body {
 }
 
 .vision-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  color: #0e0e0e;
   margin-top: 24px;
   margin-bottom: 12px;
 }
@@ -134,10 +134,12 @@ body {
 
 .vision-description {
   margin-bottom: 35px;
+  opacity: 70%;
 }
 
 .vision-box-description2 {
   margin-bottom: 43px;
+  opacity: 70%;
 }
 
 .vision-box1 {
@@ -163,6 +165,7 @@ body {
 
 .vision-box-description {
   margin-bottom: 24px;
+  opacity: 70%;
 }
 
 /* learn more button  */
@@ -202,23 +205,76 @@ body {
   padding: 30px 24px;
   background-position-x: 15px;
   background-position-y: 7px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .Dr-qoute {
   margin-bottom: 13px;
   opacity: 70%;
-  color: #0e0e0e;
 }
 .Dr-name {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: 600;
   opacity: 80%;
-  color: #0e0e0e;
 }
 
 .Dr-title {
-  color: #0e0e0e;
   opacity: 70%;
+}
+
+/* recent news section  */
+.recent-news-description {
+  margin-top: 10px;
+  opacity: 70%;
+  margin-bottom: 20px;
+}
+
+/* Bangladesh achievement box 1*/
+
+.achievement-box1 {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 30px;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.satelite {
+  border-radius: 15px;
+}
+
+.achievement-box-title {
+  font-size: 32px;
+  font-weight: bold;
+  opacity: 80%;
+  margin-bottom: 12px;
+}
+
+.date {
+  opacity: 70%;
+  margin: 16px 0;
+}
+
+.news {
+  opacity: 70%;
+  margin-bottom: 25px;
+}
+
+/* Bangladesh achievement box 2*/
+
+.achievement-box2 {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 30px;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.drone {
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
 }
